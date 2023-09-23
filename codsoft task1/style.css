@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Header styles */
+  header {
+    width: 100%;
+    height: 80px;
+    background:black;
+    color: #fff;
+    padding: 20px;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  nav{
+      margin-top: 15px;
+      
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 100px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .sec{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8PDw8VFRUVDxUPFRUPFRUPFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKys3Ny0rKysrNysrNysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQcC/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDERFAQAAAAAAACigioIqooAioqCoAoCKogCiKACAACACgqKg5FRQAABQQAAAABBQBQgKACCCoIogCgCgAACgAiACgoIICKAAKmCgigKigCGKgKAgAACKAACCoIogqqAgACACgCooIoIAqIKIIAooCKiooCKgAAKIoAACoAqACCoIAAAAKigAAKgAAKAAgqKgAKAIAAAqAAAoigAAAAVKoCAKEFEQABFBQBUVA0AAAAUQBAVAAAFQAAAABBUBVAAEUAAAAAAAAAFBAADAAAARcFEFRAAAAAAAAEAAFQFUAAIAIoACAqoAAoIAqACKAAAAgoCACAAoAIAAAKACCiAqgAAAAAAAoiggCgAAqQQAFUwBEQVAABAAABQAQAAAFFEVFAAAAAAAAAVQRUQFQBagUABQRUQAFQAAAQAAABQAQVAVUUAAAAAVFBFEUUEQAAAAAAQBUAAAAAAAEAAUFRQARFEUUAAVFBFAEAUAAAAAEQQFAAAAABAAUAEBUUUAAAAAAABQAFQAAUQAAAQqRQEhQAUARYAJQAWEAABAAFIAotQEBYAJVACigEAUf/2Q==);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .sec1 {
+    background-image: url(https://img.freepik.com/free-photo/couple-winter-cloths-studio_1303-5887.jpg?w=1060&t=st=1694189307~exp=1694189907~hmac=700713b040fd9f988a799f06d7c1be314f13f950c94b6b51e4063b7e30953719);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    color:rgba(165, 42, 42, 0.063);
+    display: flex ;
+    justify-content:left;
+    align-items:left;
+  }
+  .sec1-d{
+    width:700px;
+    height:250px;
+    border-radius:10px;
+    text-align: left;
+    margin-top: 100px;
+  }
+  .sec1-d h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .button{
+    display: inline-block;
+    padding: 30px 30px;
+    background-color:rgb(162, 84, 97);
+    color:red;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  .sec2
+  {
+    background: rgba(128, 128, 128, 0.515);
+      background-size: cover;
+      height: 470px;
+  width: 100%;
+     padding: 40px;
+     
+  }    
+  .grid
+  {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+      footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .hed{
+    display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+  .gir
+  {
+    width: 280px;
+    margin: 20px; 
+    display: flex;
+  }
+  .gir h3
+  {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .gir p
+  {
+    font-size: 22px;
+    margin-left: 20px;
+  }
+  .gir img{
+    width: 250px;
+    height: 200px;
+  }
+  
+  .gi
+  {
+    width: 350px;
+    margin: 20px; 
+    display: flex;
+  }
+  .gi h3
+  {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .gi p
+  {
+    font-size: 15px;
+    margin-left: 25px;
+  }
+  .gi img{
+    width: 150px;
+    height: 150px;
+  }
+  .sec3
+  {
+    width: 100%;
+    background:grey;
+      background-size: cover;
+      height: 518px;
+     padding:70px;
+     
+  }  
+  .hed1{
+    display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0px;
+      margin-bottom: 20px;
+  }  
+  .sec4
+  {
+    width: 100%;
+    display: flex;
+      background:rgba(128, 128, 128, 0.518);
+      background-size: cover;
+      height: 300px;
+      padding: 70px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: space-around;
+      justify-content: center;
+      align-items: center;
+  }
+  .sec4 h3
+  {
+    font-size: 40px;
+    margin-left: 20px;
+  
+  }
+  .con
+  {
+    display: flex;
+    justify-content: center;
+  
+  }
+  fieldset{
+    
+    display: flex;
+      justify-content: center;
+      padding: 10px;
+      width: 280px;
+      height: 110px;
+      border-radius: 50px;
+      margin: 25px;
+      background:gray;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  fieldset h4{
+    margin-bottom: 5px;
+  }
+  fieldset p{
+    width: 220PX;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
