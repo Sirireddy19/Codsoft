@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --color-white: #FFFFFF;
+    --color-primary:purple;
+    --color-dark: #333333;
+    --color-white-bg: #FDFDFD;
+    --box-shadow: rgba(0,0,0,0.3);
+    --transition: .4s ease;
+}
+.dark-Mood{
+    --color-dark: #FDFDFD;
+    --color-white-bg: #0b0a06;
+    --box-shadow: rgba(0,0,0,0.7);
+}
+body {
+    background: var(--color-white-bg);
+    color: var(--color-dark)
+}
+img{
+
+    display: block;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 1.2rem 2.2rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: .4rem;
+    box-shadow: 0 0.2rem 0.4rem var(--box-shadow);
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .7px;
+    border: 2px solid transparent;
+    cursor: default;
+    transition: var(--transition);
+}
+.btn:hover{
+    border-color: var(--color-primary);
+    background: transparent;
+    color: var(--color-primary);
+}
+.container{
+    max-width: 1380px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+/* ............start navbar............*/
+nav{
+    width: 100%;
+    position: fixed;
+    height: 5rem;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    display: grid;
+    place-items: center;
+}
+.nav-scroll{
+    background: #0b0a06;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,0.3);
+}
+.nav-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container .logo h3{
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: var(--color-primary);
+    cursor: default;
+}
+.nav-container .navlinks{
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+}
+.nav-container .navlinks li a{
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+header{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 44% auto;
+}
+.header-left{
+    margin-top: 5rem;
+    position: relative;
+    z-index: 1;
+}
+.header-container h3{
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 110%;
+}
+.header-container h1{
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: .2rem;
+}
+.header-container p{
+    font-size: 20px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 2.4rem;
+}
+.social-links a{
+    padding: .4rem .7rem;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    font-size: 18px;
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.5rem var(--box-shadow);
+    
+}
+.social-link a:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+/*....................header right..............*/
+
+/*................end header section.............*/
+#About{
+    padding-top: 5%;
+}
+.sec5{
+    background-image: url(https://media.tarkett-image.com/large/TH_PROTECTWALL_Tisse_Light_Grey.jpg);
+}
+.about-container{
+    display: grid;
+    grid-template-columns: 36% 56%;
+    gap: 8%;
+    align-items: center;
+}
+.about-img{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 26rem;
+    height: 26rem;
+    aspect-ratio: 1/1;
+    border-radius: .4rem;
+}
+.about-right h2{
+    color: var(--color-primary);
+    font-size: 3.5rem;
+}
+.about-right h3{
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+.about-right p{
+    margin-bottom: 2rem;
+    font-size: 19px;
+    font-family: serif;
+}
+#Skills{
+    padding-top: 5%;
+}
+
+ .sec1{
+    background-image: url(https://media.tarkett-image.com/large/TH_PROTECTWALL_Tisse_Light_Grey.jpg);
+ } 
+.skill-right h2{
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 3.5rem;
+}
+.skill-right h3{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: serif;
+}
+.skill-right p{
+    text-align: center;
+    margin-bottom: .6rem;
+    font-size: 19px;
+    font-family: cursive;
+}
+#projects{
+    padding-top: 5%;   
+}
+.sec2{
+    background-image: url(https://media.tarkett-image.com/large/TH_PROTECTWALL_Tisse_Light_Grey.jpg);
+}
+.project-right h2{
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 3.5rem;
+}
+.project-right h3{
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: serif;
+}
+.project-right p{
+    margin-bottom: .6rem;
+    font-size: 19px;
+    font-family: cursive;
+}
+#certications{
+    padding-top: 5%;
+}
+.sec3{
+    background-image: url(https://media.tarkett-image.com/large/TH_PROTECTWALL_Tisse_Light_Grey.jpg);
+}
+.certifications-right h2{
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 3.5rem;
+}
+.certifications-right p{
+    margin-bottom: .6rem;
+    font-size: 19px;
+    font-family: cursive;
+
+}
+#Contact{
+    padding-top: 3%;
+}
+.sec4{
+    background-image: url(https://media.tarkett-image.com/large/TH_PROTECTWALL_Tisse_Light_Grey.jpg);
+}
+.contact-container h2{
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 3.5rem;
+    font-family: cursive;
+}
+.contact-container p{
+    margin-bottom: .6rem;
+    font-size: 19px;
+    font-family: cursive;
+    font-weight: 500;
+}
